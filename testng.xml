@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite Facebook LogIn">
+ 
+    <test name="Log In Page">
+    	<parameter name="validUserName" value="validname1"/>
+ 		<parameter name="validPassword" value="validPass1"/>
+		<classes>
+		    <class name="test.FacebookLogInSuccessfully" />
+		</classes>
+		
+		<parameter name="invalidUserName" value="invalidname1"/>
+ 		<parameter name="invalidPassword" value="invalidPass1"/>
+		<classes>
+		    <class name="test.FacebookLogInUnsuccessfully" />
+		</classes>
+		
+		<parameter name="userName" value="invalidname1"/>
+ 		<parameter name="invalidPassword" value="invalidPass1"/>
+		<classes>
+		    <class name="test.FacebookLogInUnsuccessfully" />
+		</classes>
+		
+		<parameter name="userName" value="userForRecoverPss"/>
+ 		<parameter name="recoveryCode" value="123456"/>
+		<classes>
+		    <class name="test.FacebookForgotPassword" />
+		</classes>
+		
+		FacebookForgotPassword
+ 
+    </test>
+ 
+</suite>

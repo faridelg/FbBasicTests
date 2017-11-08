@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13155" started-at="2017-11-07T19:06:47Z" finished-at="2017-11-07T19:07:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13155" started-at="2017-11-07T19:06:47Z" finished-at="2017-11-07T19:07:00Z">
+      <class name="tests.FacebookLogInUnsuccessfully">
+        <test-method status="PASS" signature="setUpFF()[pri:0, instance:tests.FacebookLogInUnsuccessfully@59fa1d9b]" name="setUpFF" is-config="true" duration-ms="10038" started-at="2017-11-07T13:06:47Z" finished-at="2017-11-07T13:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFF -->
+        <test-method status="PASS" signature="logInUnsuccess(java.lang.String, java.lang.String)[pri:0, instance:tests.FacebookLogInUnsuccessfully@59fa1d9b]" name="logInUnsuccess" duration-ms="2823" started-at="2017-11-07T13:06:57Z" finished-at="2017-11-07T13:07:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidname1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidPass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUnsuccess -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.FacebookLogInUnsuccessfully@59fa1d9b]" name="closeBrowser" is-config="true" duration-ms="261" started-at="2017-11-07T13:07:00Z" finished-at="2017-11-07T13:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.FacebookLogInUnsuccessfully -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
